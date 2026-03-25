@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoController {
-    @GetMapping("hyy")
+    @GetMapping("hy")
     public  String hy(){
         return "hyy we are accessing backend";
     }
